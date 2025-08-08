@@ -12,7 +12,7 @@ class CalculateDomainPricing {
      public BigDecimal DiscountPercent = BigDecimal.valueOf(10.00).divide(BigDecimal.valueOf(100));
      public BigDecimal AnnualMarkupDecreasePercent = BigDecimal.valueOf(5.00).divide(BigDecimal.valueOf(100));
      public BigDecimal MinimumMarkupPercent = BigDecimal.valueOf(15.00).divide(BigDecimal.valueOf(100));
-
+//
     public BigDecimal MarkupPrice() {
         BigDecimal markupPrice = RegistrationPrice.multiply(BigDecimal.ONE
                 .add(MarkupPercent));
