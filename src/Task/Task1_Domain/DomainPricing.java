@@ -11,13 +11,8 @@ public class DomainPricing {
         BigDecimal ry = BigDecimal.valueOf(RenewalYears);
 
         CalculateDomainPricing obj = new CalculateDomainPricing();
-        obj.MarkupPrice();
-        obj.FinalConsumerPrice();
-        obj.PricePerSelectedYears(ry);
-        obj.MarkupForSelectedYears(RenewalYears);
-        obj.PricePerYearFinal(RenewalYears);
-        obj.FinalPriceWithRenewals(RenewalYears,ry);
 
+        obj.Calculations(RenewalYears,ry);
 
     }
 }
