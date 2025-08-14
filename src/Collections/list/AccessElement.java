@@ -11,6 +11,7 @@ public class AccessElement {
         numbers.add(4.0);
 
         System.out.println(numbers.get(2));
+        System.out.println("changes");
 
     }
 }
